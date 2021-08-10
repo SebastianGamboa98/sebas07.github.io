@@ -1,0 +1,39 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad Propuesta</title>
+</head>
+    <form action="index.html">
+      <input  type="submit" name="exit" value="Exit" width="100" height="40" />
+      <fieldset>
+        <legend>Sus Datos:</legend>
+        <label>Nombre:<input type="text" name="nombre" /></label><br />
+        <label>Email:<input type="text" name="email" /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Su opinión:</legend>
+        <label lor="username">¿Como se enteraron de nosotros?</label>
+         <select name="redes" >
+            <option value="google">Google</option>
+            <option value="publicidad">Publicidad</option>
+            <option value="radio">Radio</option>
+         </select>
+         <p>¿Volveria a visitarnos?
+            <br />
+            <input id="female" type="radio" name="gender" value="s">
+            <label lor="female">Si</label>
+            <input id="male" type="radio" name="gender" value="n">
+            <label lor="male">No</label>
+            <input id="male" type="radio" name="gender" value="Quizas">
+            <label lor="male">Quizas</label>
+        </p>
+        <p> Comentarios: <br />
+        <textarea name="comments" cols="50" rows="4"> </textarea> <br />
+        </p>
+        <input type="checkbox" name="service" value="itunes" checked="checked" /> Inscribete para actualizaciones por correo electronico 
+        <br />
+        <input type="submit" name="subscribe" value="Submit review " />  
+    </fieldset>
+    </form>      
+</body>
+</html>        
